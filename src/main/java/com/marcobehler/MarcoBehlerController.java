@@ -14,7 +14,7 @@ public class MarcoBehlerController {
 
     @RequestMapping(value = "/categories", method = RequestMethod.GET)
     public List<Category> getAllVideoCategories() {
-        return Stream.of("Spring-Boot", "Spring-Batch", "Spring", "HikariCP", "Jooq", "Hibernate", "Dropwizard", "Logback",
+        return Stream.of("Spring-Boot", "Spring-Batch", "Spring", "Java 8", "HikariCP", "Jooq", "Hibernate", "Dropwizard", "Logback",
                 "Log4j2", "Resteasy", "Dagger", "Dagger 2", "Magnolia CMS", "Wicket", "Jadira Usertypes", "JDBCslog",
                 "Liquibase", "Flyway", "Guava", "Args4j", "Joda Money", "Archaius", "Joda Time", "Jamon", "Freemarker",
                 "JCommander", "Jetty", "JPos / JCard", "org.reflections", "Jsch", "Zt-ZIP", "Hystrix", "Chaos Monkey",
